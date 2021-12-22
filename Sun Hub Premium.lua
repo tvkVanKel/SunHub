@@ -7,5 +7,5 @@ local check = {
 if check[game.PlaceId] then 
   loadstring(game:HttpGet(check[game.PlaceId]))()
  else
-  game.Players.LocalPlayer:Kick("Game deo support execute cc")
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/tvkVanKel/SunHub/main/OtherGame.lua"))()
 end
